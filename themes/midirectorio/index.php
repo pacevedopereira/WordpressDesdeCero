@@ -6,7 +6,7 @@
 
             <h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
             <small>Publicado el <?php the_time('j/m/Y') ?> por <?php the_author_posts_link() ?> </small>
-            <?php the_excerpt(); ?>
+            <?php  the_excerpt();?>
 
 
         <?php endwhile;
@@ -37,19 +37,25 @@
     </div>
 
     <!-- no sé si esto va aquí -->
-    <div id="content">
+   <!-- <div id="content">
         <h2>Date</h2>
 
-        <div class="post" id="post-<?php the_ID(); ?>">
+        <div class="post" id="post-<?php /*the_ID(); */?>">
             <h3 class="storytitle">Post Title</h3>
 
             <div class="meta">Post Meta Data</div>
             <div class="storycontent">
-                <p>Welcome to WordPress.</p>
+                <p>Bienvenido a mi WordPress.</p>
             </div>
             <div class="feedback">Comments (2)</div>
         </div>
-    </div>
+    </div>-->
+
+    <p class="postmetadata">
+        Publicado en <?php the_category(', ') ?>
+        <strong>|</strong>
+        <?php edit_post_link('Edit','','<strong>|</strong>'); ?>
+        <?php comments_popup_link('Sin Comentarios »', '1 Comentario »', '% Comentarios »'); ?></p>
 
 
 <?php get_sidebar() ?>
