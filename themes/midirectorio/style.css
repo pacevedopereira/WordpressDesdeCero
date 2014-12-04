@@ -1,0 +1,46 @@
+/*
+Theme Name: Mitema
+Theme URI: http://www.mitema.com
+Description: Mi primer tema de WP.
+Author: Pedro
+Author URI: http://freene.esy.es/
+Version: 1.0
+*/
+body{
+    background-image: url("images/white-minimal-wall-lines.jpg");
+    background-size: 100%;
+
+
+}
+
+main{
+    font-family: Helvetica;
+    color: #767676;
+}
+
+h1 a{
+    color: #767676;
+    font-family: Helvetica, sans-serif;
+
+}
+
+h2 a{
+    font-size: 2em;
+    color: #767676;
+    font-family: Helvetica;
+
+}
+
+li a{
+    color: #767676;
+    font-family: Helvetica;
+}
+
+small a{
+    color: #767676;
+    font-family: Helvetica;
+}
+small {
+    color: #767676;
+    font-family: Helvetica;
+}

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" autoUpload="On explicit save action" serverName="TestFTPHostinger">
+    <serverData>
+      <paths name="TestFTPHostinger">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/wordpresso/wp-content" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+          <excludedPaths>
+            <excludedPath path="/wordpresso/wp-content/themes/match" />
+            <excludedPath path="/wordpresso/wp-content/themes/twentythirteen" />
+            <excludedPath path="/wordpresso/wp-content/themes/twentytwelve" />
+            <excludedPath path="/wordpresso/wp-content/themes/coeur" />
+            <excludedPath path="/wordpresso/wp-content/themes/superhero" />
+            <excludedPath path="/wordpresso/wp-content/themes/hathor" />
+            <excludedPath path="/wordpresso/wp-content/themes/pictorico" />
+            <excludedPath local="true" path="$PROJECT_DIR$/themes/match" />
+            <excludedPath local="true" path="$PROJECT_DIR$/themes/twentythirteen" />
+            <excludedPath local="true" path="$PROJECT_DIR$/themes/twentytwelve" />
+            <excludedPath local="true" path="$PROJECT_DIR$/themes/coeur" />
+            <excludedPath local="true" path="$PROJECT_DIR$/themes/superhero" />
+            <excludedPath local="true" path="$PROJECT_DIR$/themes/hathor" />
+            <excludedPath local="true" path="$PROJECT_DIR$/themes/pictorico" />
+          </excludedPaths>
+        </serverdata>
+      </paths>
+    </serverData>
+    <option name="myAutoUpload" value="ON_EXPLICIT_SAVE" />
+  </component>
+</project>
+
